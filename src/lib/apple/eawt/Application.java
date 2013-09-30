@@ -172,7 +172,7 @@ public final class Application {
 	 * @since Java for Mac OS X 10.6 Update 3
 	 * @since Java for Mac OS X 10.5 Update 8
 	 */
-	public void addAppEventListener(final AppEventListener listener) {
+	public static void addAppEventListener(final AppEventListener listener) {
 		if (application != null) {
 			Object handler = null;
 			if (listener instanceof AppForegroundListener) {
@@ -304,7 +304,7 @@ public final class Application {
 	 * @since Java for Mac OS X 10.6 Update 3
 	 * @since Java for Mac OS X 10.5 Update 8
 	 */
-	public void removeAppEventListener(final AppEventListener listener) {
+	public static void removeAppEventListener(final AppEventListener listener) {
 		if (application != null) {
 			Object handler = null;
 			if (listener instanceof AppForegroundListener) {
