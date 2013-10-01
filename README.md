@@ -52,3 +52,4 @@ public class MacExample {
 ```
 
 Other features also include setting the dock image so that it is not the generic Java icon and also getting many other system events.
+Special thanks to [simplericity](http://simplericity.com/2007/10/02/1191336060000.html) for providing the inspiration for this project.
